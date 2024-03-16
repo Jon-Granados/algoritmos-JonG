@@ -1,46 +1,54 @@
-package cr.ac.ucr.paraiso.ie.algoritmos;
+package cr.ac.ucr.paraiso.ie.algoritmos.clase2;
 
 import java.util.Arrays;
 
-
-class Edge implements Comparable<Edge> {
-    int src, dest, weight;
-
-    public Edge(int src, int dest, int weight) {
-        this.src = src;
-        this.dest = dest;
-        this.weight = weight;
-    }
-
-    public int compareTo(Edge compareEdge) {
-        return this.weight - compareEdge.weight;
-    }
-}
-
+/**
+ * @author Jonathan Granados Cortés
+ * IF3000 - Algoritmos y Estructuras de Datos
+ * Sede del Atlántico - Recinto Paraíso
+ * @version 1.0
+ * @category Algoritmo Voraz
+ */
 public class KruskalAlgorithm {
     int V, E;
-    Edge[] edges;
-
+    public KruskalEdge[] edges;
+/**
+ * 
+ * @param V
+ * @param E
+ */
     public KruskalAlgorithm(int V, int E) {
         this.V = V;
         this.E = E;
-        edges = new Edge[E];
+        edges = new KruskalEdge[E];
     }
-
+/**
+ * 
+ * @param parent
+ * @param i
+ * @return
+ */
     int find(int[] parent, int i) {
         if (parent[i] == -1)
             return i;
         return find(parent, parent[i]);
     }
-
+/**
+ * 
+ * @param parent
+ * @param x
+ * @param y
+ */
     void union(int[] parent, int x, int y) {
         int xset = find(parent, x);
         int yset = find(parent, y);
         parent[xset] = yset;
     }
-
-    void kruskalMST() {
-        Edge[] result = new Edge[V];
+/**
+ * Kruskal, encuentra el arbol de expansion minima, selecciona en cada paso la arista de menor peso 
+ */
+    public void kruskalMST() {
+    	KruskalEdge[] result = new KruskalEdge[V];
         int[] parent = new int[V];
         Arrays.fill(parent, -1);
 
@@ -49,7 +57,7 @@ public class KruskalAlgorithm {
         int e = 0;
         int i = 0;
         while (e < V - 1 && i < E) {
-            Edge nextEdge = edges[i++];
+        	KruskalEdge nextEdge = edges[i++];
             int x = find(parent, nextEdge.src);
             int y = find(parent, nextEdge.dest);
 
