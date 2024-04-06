@@ -23,20 +23,20 @@ public class MainRunExamples
     public static void main( String[] args )
     {
     	//runFactorial();//clase 1
-    	//runKruskal(); 
+    	runKruskal(); 
         //runExhaustiveSearch();
         //runKnapsack();
-    	//runFibonacci();
+    	//runFibonacci();<<<<<<<<<<<<<<
     	//runBinarySearch();
-        runMontecarloPi();
+        //runMontecarloPi();
         
     }
     
 	/**
      * Ejercicio clase 1
      */
-    private static void runFactorial() {
-		int number = 10;
+    protected static void runFactorial(int number) {
+		
 		
 		System.out.println("Factorial  Recursivo: ");
 		long startTimeRecursive = System.nanoTime();
@@ -57,8 +57,8 @@ public class MainRunExamples
     /**
      * Ejemplos clase 2
      */
-    private static void runKruskal() {
-		 int V = 4;
+    protected static void runKruskal() {
+		 	int V = 4;
 	        int E = 5;
 	        KruskalAlgorithm graph = new KruskalAlgorithm(V, E);
 
@@ -72,8 +72,8 @@ public class MainRunExamples
 		
 	}
     
-    private static void runExhaustiveSearch() {
-        int number = 25; // Número para encontrar la raíz cuadrada
+    protected static void runExhaustiveSearch() {
+        int number = 100; // Número para encontrar la raíz cuadrada
         int result = ExhaustiveSearch.findSquareRoot(number);
 
         if (result != -1) {
@@ -83,17 +83,17 @@ public class MainRunExamples
         }
 		
 	}
-	private static void runKnapsack() {
-        int[] values = {60, 100, 120, 330};
+    protected static void runKnapsack() {
+        int[] values = {60, 100, 120, 30};
         int[] weights = {10, 20, 30, 50};
         int capacity = 50;
         int n = values.length;
-
+ 
         int maxValue = BackPackAlgorithm.knapsack(capacity, weights, values, n);
         System.out.println("Maximum value that can be obtained: " + maxValue);		
 	}
 	
-	private static void runFibonacci() {
+    protected static void runFibonacci() {
 		int number = 10;
 		
 		
@@ -118,7 +118,7 @@ public class MainRunExamples
 		
 	}
 	
-	private static void runBinarySearch() {
+    protected static void runBinarySearch() {
 		int[] array = {5, 8, 12, 16, 38, 56, 72, 91,23,2};
         int target = 23;
         int[] sortedArray = new int[array.length];
@@ -139,8 +139,8 @@ public class MainRunExamples
         }
 		
 	}
-	private static void runMontecarloPi() {
-    	int numPoints = 10000; // Número de puntos a generar
+    protected static void runMontecarloPi() {
+    	int numPoints = 1000000000; // Número de puntos a generar
         double estimatedPi = MonteCarloPi.estimatePi(numPoints);
 
         System.out.println("Valor estimado de Pi: " + estimatedPi);
