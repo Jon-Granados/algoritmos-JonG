@@ -1,4 +1,4 @@
-package cr.ac.ucr.paraiso.ie.algoritmos.semana2;
+package cr.ac.ucr.paraiso.ie.algoritmos.semana2.exVoraz;
 
 /**
  * @author Jonathan Granados Cortés

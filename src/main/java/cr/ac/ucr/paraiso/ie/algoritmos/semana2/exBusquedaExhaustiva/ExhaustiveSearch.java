@@ -1,4 +1,4 @@
-package cr.ac.ucr.paraiso.ie.algoritmos.semana2;
+package cr.ac.ucr.paraiso.ie.algoritmos.semana2.exBusquedaExhaustiva;
 /**
  * @author Jonathan Granados Cortés
  * IF3000 - Algoritmos y Estructuras de Datos

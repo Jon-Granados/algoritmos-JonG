@@ -1,4 +1,4 @@
-package cr.ac.ucr.paraiso.ie.algoritmos.semana2;
+package cr.ac.ucr.paraiso.ie.algoritmos.semana2.exDivideyVenceras;
 
 /**
  * @author Jonathan Granados Cortés

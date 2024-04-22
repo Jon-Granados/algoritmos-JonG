@@ -1,21 +1,24 @@
-package cr.ac.ucr.paraiso.ie.algoritmos.semana6;
+package cr.ac.ucr.paraiso.ie.algoritmos.semana6.listaDoble;
 
 import java.util.Scanner;
 
-public class MainSimpleListScan {
+import java.util.Scanner;
+
+public class MainListaDobleScan{
     public static void main(String[] args) {
-        ListaSimple lista = new ListaSimple();
+        ListaDoble lista = new ListaDoble();
         Scanner scanner = new Scanner(System.in);
         int opcion = 0;
 
         do {
-            System.out.println("\n*** Menú de operaciones de lista simple ***");
+            System.out.println("\n*** Menú de operaciones de lista doble ***");
             System.out.println("1. Insertar elemento");
             System.out.println("2. Borrar elemento");
             System.out.println("3. Mostrar lista");
             System.out.println("4. Insertar en posición");
             System.out.println("5. Borrar en posición");
-            System.out.println("6. Salir");
+            System.out.println("6. Invertir Lista");
+            System.out.println("7. Salir");
             System.out.print("Seleccione una opción: ");
             opcion = scanner.nextInt();
 
@@ -33,8 +36,7 @@ public class MainSimpleListScan {
                     }
                     break;
                 case 3:
-                    System.out.print("Lista: ");
-                    mostrarLista(lista);
+                    System.out.print(lista.toString());
                     break;
                 case 4:
                     System.out.print("Ingrese el valor a insertar: ");
@@ -53,22 +55,17 @@ public class MainSimpleListScan {
                     }
                     break;
                 case 6:
+                	lista.invertir();
+                    System.out.println("La lista se invirtio.");
+                	break;
+                case 7:
                     System.out.println("¡Hasta luego!");
                     break;
                 default:
                     System.out.println("Opción inválida.");
             }
-        } while (opcion != 6);
+        } while (opcion != 7);
 
         scanner.close();
-    }
-
-    // Método para mostrar los elementos de la lista
-    public static void mostrarLista(ListaSimple lista) {
-        Nodo actual = lista.getCabeza();
-        while (actual != null) {
-            System.out.print(actual.dato + " ");
-            actual = actual.siguiente;
-        }
     }
 }

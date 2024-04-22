@@ -1,16 +1,16 @@
-package cr.ac.ucr.paraiso.ie.algoritmos;
+package cr.ac.ucr.paraiso.ie.algoritmos.semana2;
 
 
 import java.util.Arrays;
 
 import cr.ac.ucr.paraiso.ie.algoritmos.semana1.FactorialAlgorithm;
-import cr.ac.ucr.paraiso.ie.algoritmos.semana2.BackPackAlgorithm;
-import cr.ac.ucr.paraiso.ie.algoritmos.semana2.BinarySearchAlgorithm;
-import cr.ac.ucr.paraiso.ie.algoritmos.semana2.ExhaustiveSearch;
-import cr.ac.ucr.paraiso.ie.algoritmos.semana2.FibonacciAlgorithm;
-import cr.ac.ucr.paraiso.ie.algoritmos.semana2.KruskalAlgorithm;
-import cr.ac.ucr.paraiso.ie.algoritmos.semana2.KruskalEdge;
-import cr.ac.ucr.paraiso.ie.algoritmos.semana2.MonteCarloPi;
+import cr.ac.ucr.paraiso.ie.algoritmos.semana2.exBusquedaExhaustiva.BackPackAlgorithm;
+import cr.ac.ucr.paraiso.ie.algoritmos.semana2.exBusquedaExhaustiva.ExhaustiveSearch;
+import cr.ac.ucr.paraiso.ie.algoritmos.semana2.exBusquedaExhaustiva.FibonacciAlgorithm;
+import cr.ac.ucr.paraiso.ie.algoritmos.semana2.exDivideyVenceras.BinarySearchAlgorithm;
+import cr.ac.ucr.paraiso.ie.algoritmos.semana2.exProbabilistico.MonteCarloPi;
+import cr.ac.ucr.paraiso.ie.algoritmos.semana2.exVoraz.KruskalAlgorithm;
+import cr.ac.ucr.paraiso.ie.algoritmos.semana2.exVoraz.KruskalEdge;
 
 /**
  * @author Jonathan Granados Cortés

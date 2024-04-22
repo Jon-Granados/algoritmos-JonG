@@ -1,4 +1,4 @@
-package cr.ac.ucr.paraiso.ie.algoritmos.semana6;
+package cr.ac.ucr.paraiso.ie.algoritmos.semana6.listaSimple;
 
 import java.util.NoSuchElementException;
 
@@ -125,4 +125,17 @@ public class ListaSimple {
 	public void setCabeza(Nodo cabeza) {
 		this.cabeza = cabeza;
 	}
+	
+	  // Método para mostrar los elementos de la lista
+	@Override
+    public String toString() {
+        Nodo actual = this.getCabeza();
+        StringBuilder listToString = new StringBuilder("Los datos de la lista son: \n");
+        
+        while (actual != null) {
+            listToString.append(actual.dato + (actual.siguiente == null? ".":" , "));
+            actual = actual.siguiente;
+        }
+		return listToString.toString();
+    } 
 }

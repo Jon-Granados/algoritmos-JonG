@@ -1,4 +1,4 @@
-package cr.ac.ucr.paraiso.ie.algoritmos.semana6;
+package cr.ac.ucr.paraiso.ie.algoritmos.semana6.listaSimple;
 
 public class Nodo {
     int dato;
@@ -8,4 +8,5 @@ public class Nodo {
         this.dato = dato;
         this.siguiente = null;
     }
+	
 }

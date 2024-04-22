@@ -3,7 +3,8 @@ package cr.ac.ucr.paraiso.ie.algoritmos.clase6;
 import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
-import cr.ac.ucr.paraiso.ie.algoritmos.semana6.ListaSimple;
+
+import cr.ac.ucr.paraiso.ie.algoritmos.semana6.listaSimple.ListaSimple;
 
 public class ListaSimpleTest {
     private ListaSimple lista;
