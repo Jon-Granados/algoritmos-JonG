@@ -1,4 +1,4 @@
-package cr.ac.ucr.paraiso.ie.algoritmos.clase2;
+package cr.ac.ucr.paraiso.ie.algoritmos.semana2;
 
 import java.util.Random;
 /**

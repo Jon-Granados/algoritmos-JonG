@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package cr.ac.ucr.paraiso.ie.algoritmos.clase3;
+package cr.ac.ucr.paraiso.ie.algoritmos.semana4;
 
 import java.util.*;
 

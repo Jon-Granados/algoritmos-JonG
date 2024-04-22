@@ -1,4 +1,4 @@
-package cr.ac.ucr.paraiso.ie.algoritmos.clase1;
+package cr.ac.ucr.paraiso.ie.algoritmos.semana1;
 /**
  * @author Jonathan Granados Cortés
  * IF3000 - Algoritmos y Estructuras de Datos
