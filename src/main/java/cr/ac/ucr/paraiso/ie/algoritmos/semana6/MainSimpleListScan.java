@@ -2,7 +2,7 @@ package cr.ac.ucr.paraiso.ie.algoritmos.semana6;
 
 import java.util.Scanner;
 
-public class RunMainScan {
+public class MainSimpleListScan {
     public static void main(String[] args) {
         ListaSimple lista = new ListaSimple();
         Scanner scanner = new Scanner(System.in);
