@@ -1,4 +1,4 @@
-  <h1>Bienvenido al repositorio del curso de algoritmos</h1>
+  <h1>Bienvenido al repositorio del curso <br> IF3001 - Algoritmos y estructuras de datos</h1>
 
 Este repositorio contiene los materiales del curso de algoritmos, incluyendo:
 
