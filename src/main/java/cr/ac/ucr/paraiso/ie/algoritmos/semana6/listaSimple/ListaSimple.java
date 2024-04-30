@@ -6,12 +6,13 @@ public class ListaSimple {
     private Nodo cabeza;
     private int tamanio;
 
+    //Instancia una lista vacia
     public ListaSimple() {
         setCabeza(null);
         tamanio = 0;
     }
 
-    // Crear
+    // Crear identico al contructor
     public void crear() {
         setCabeza(null);
         tamanio = 0;
