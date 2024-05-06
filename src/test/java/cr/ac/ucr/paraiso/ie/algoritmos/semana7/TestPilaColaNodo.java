@@ -2,8 +2,8 @@ package cr.ac.ucr.paraiso.ie.algoritmos.semana7;
 
 import org.junit.Test;
 
-import cr.ac.ucr.paraiso.ie.algoritmos.semana7.colas.ColaNodo;
-import cr.ac.ucr.paraiso.ie.algoritmos.semana7.pilas.PilaNodo;
+import cr.ac.ucr.paraiso.ie.algoritmos.semana7.ColaNodo;
+import cr.ac.ucr.paraiso.ie.algoritmos.semana7.PilaNodo;
 
 import static org.junit.Assert.*;
 

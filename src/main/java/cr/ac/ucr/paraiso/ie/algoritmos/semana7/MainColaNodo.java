@@ -1,4 +1,4 @@
-package cr.ac.ucr.paraiso.ie.algoritmos.semana7.colas;
+package cr.ac.ucr.paraiso.ie.algoritmos.semana7;
 
 public class MainColaNodo {
 	   public static void main(String[] args) {

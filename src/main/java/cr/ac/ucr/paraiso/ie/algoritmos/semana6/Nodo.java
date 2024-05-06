@@ -1,4 +1,4 @@
-package cr.ac.ucr.paraiso.ie.algoritmos.semana6.listaSimple;
+package cr.ac.ucr.paraiso.ie.algoritmos.semana6;
 
 public class Nodo {
     int dato;

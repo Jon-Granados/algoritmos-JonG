@@ -2,7 +2,7 @@ package cr.ac.ucr.paraiso.ie.algoritmos.semana7;
 
 import org.junit.*;
 
-import cr.ac.ucr.paraiso.ie.algoritmos.semana7.colas.ColaArray;
+import cr.ac.ucr.paraiso.ie.algoritmos.semana7.ColaArray;
 
 import static org.junit.Assert.*;
 

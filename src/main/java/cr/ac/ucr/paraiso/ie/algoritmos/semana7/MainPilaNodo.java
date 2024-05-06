@@ -1,4 +1,4 @@
-package cr.ac.ucr.paraiso.ie.algoritmos.semana7.pilas;
+package cr.ac.ucr.paraiso.ie.algoritmos.semana7;
 
 public class MainPilaNodo {
 	

@@ -1,5 +1,4 @@
-package cr.ac.ucr.paraiso.ie.algoritmos.semana7.pilas;
-import java.util.EmptyStackException;
+package cr.ac.ucr.paraiso.ie.algoritmos.semana7;
 public class PilaNodo <T>{
 	
 	    private Nodo top;

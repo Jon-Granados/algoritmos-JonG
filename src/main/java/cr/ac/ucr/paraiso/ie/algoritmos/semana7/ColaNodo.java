@@ -1,4 +1,4 @@
-package cr.ac.ucr.paraiso.ie.algoritmos.semana7.colas;
+package cr.ac.ucr.paraiso.ie.algoritmos.semana7;
 
 import java.util.EmptyStackException;
 
