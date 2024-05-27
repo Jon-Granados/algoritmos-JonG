@@ -2,7 +2,7 @@ package cr.ac.ucr.paraiso.ie.algoritmos.semana8;
 
 import org.junit.Test;
 
-import cr.ac.ucr.paraiso.ie.algoritmos.semana8.LinearSelectionWithSwappingSort;
+import cr.ac.ucr.paraiso.ie.algoritmos.tema5.LinearSelectionWithSwappingSort;
 
 import static org.junit.Assert.assertArrayEquals;
 

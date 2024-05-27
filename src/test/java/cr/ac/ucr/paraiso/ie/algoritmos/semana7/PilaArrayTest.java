@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.*;
 
-import cr.ac.ucr.paraiso.ie.algoritmos.semana7.PilaArray;
+import cr.ac.ucr.paraiso.ie.algoritmos.tema3.PilaArray;
 
 
 public class PilaArrayTest<T> {

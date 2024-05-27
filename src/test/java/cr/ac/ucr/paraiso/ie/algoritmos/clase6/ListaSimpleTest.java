@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-import cr.ac.ucr.paraiso.ie.algoritmos.semana6.ListaSimple;
+import cr.ac.ucr.paraiso.ie.algoritmos.tema3.ListaSimple;
 
 public class ListaSimpleTest {
     private ListaSimple lista;

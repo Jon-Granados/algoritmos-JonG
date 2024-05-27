@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import cr.ac.ucr.paraiso.ie.algoritmos.semana8.SinkingSort;
+import cr.ac.ucr.paraiso.ie.algoritmos.tema5.SinkingSort;
 
 import org.junit.Test;
 import static org.junit.Assert.assertArrayEquals;

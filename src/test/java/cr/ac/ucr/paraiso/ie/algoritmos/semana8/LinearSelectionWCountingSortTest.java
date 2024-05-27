@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import cr.ac.ucr.paraiso.ie.algoritmos.semana8.LinearSelectionWCountingSort;
+import cr.ac.ucr.paraiso.ie.algoritmos.tema5.LinearSelectionWCountingSort;
 
 public class LinearSelectionWCountingSortTest {
 
