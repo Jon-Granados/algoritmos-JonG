@@ -66,10 +66,10 @@ public class Dijkstra {
 
     // Método que implementa el algoritmo de Dijkstra para un grafo representado con una matriz de adyacencia
     public void dijkstra(int[][] graph, int src, String[] nombresNodos) {
-        int V = graph.length;
-        int[] dist = new int[V]; // Distancia más corta desde src hasta i
-        boolean[] sptSet = new boolean[V]; // sptSet[i] será true si el vértice i está incluido en el camino más corto
-        int[] prev = new int[V]; // Predecesores de los nodos
+        int size = graph.length;
+        int[] dist = new int[size]; // Distancia más corta desde src hasta i
+        boolean[] sptSet = new boolean[size]; // sptSet[i] será true si el vértice i está incluido en el camino más corto
+        int[] prev = new int[size]; // Predecesores de los nodos
 
         // Inicializar todas las distancias como INFINITO y sptSet[] como falso
         Arrays.fill(dist, INF);
@@ -80,15 +80,15 @@ public class Dijkstra {
         dist[src] = 0;
 
         // Encontrar el camino más corto para todos los vértices
-        for (int count = 0; count < V - 1; count++) {
+        for (int count = 0; count < size - 1; count++) {
             // Escoger el vértice de distancia mínima desde el conjunto de vértices no procesados
-            int u = minDistance(dist, sptSet, V);
+            int u = minDistance(dist, sptSet, size);
 
             // Marcar el vértice escogido como procesado
             sptSet[u] = true;
 
             // Actualizar el valor de dist de los vértices adyacentes del vértice escogido
-            for (int v = 0; v < V; v++) {
+            for (int v = 0; v < size; v++) {
                 // Actualizar dist[v] si no está en sptSet, hay una arista de u a v, y el peso total del camino de src a v a través de u es menor que el valor actual de dist[v]
                 if (!sptSet[v] && graph[u][v] != 0 && dist[u] != INF && dist[u] + graph[u][v] < dist[v]) {
                     dist[v] = dist[u] + graph[u][v];
@@ -99,7 +99,7 @@ public class Dijkstra {
 
 
         // Imprimir la solución
-        printSolution(dist, prev, nombresNodos, V, src);
+        printSolution(dist, prev, nombresNodos, size, src);
     }
 }
 

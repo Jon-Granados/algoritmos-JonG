@@ -20,7 +20,9 @@ public class MainMST {
 	                {0, 0, 0, 9, 0, 3, 0}
 	            };       
 	        String[] nombresNodos = {"A", "B", "C", "D", "E", "F", "G"};
+	        
 	        GraphAdyacencyMatrix.mostrarGrafo(grafo, grafo.length,nombresNodos);
+	        
 	        
 	        AlgoritmoPrim.primMST(grafo,nombresNodos);
 	        
